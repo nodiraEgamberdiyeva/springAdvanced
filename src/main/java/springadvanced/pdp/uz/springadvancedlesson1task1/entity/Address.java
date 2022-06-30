@@ -3,6 +3,7 @@ package springadvanced.pdp.uz.springadvancedlesson1task1.entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import springadvanced.pdp.uz.springadvancedlesson1task1.repository.AddressRepository;
 
 import javax.persistence.*;
 
@@ -20,4 +21,6 @@ public class Address {
     private String street;
     @Column(nullable = false)
     private String homeNumber;
+
+
 }
